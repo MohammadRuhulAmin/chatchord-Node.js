@@ -1,0 +1,20 @@
+{
+  "name": "chat-coard",
+  "version": "1.0.0",
+  "description": "Real Time Chat application with rooms or group",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "author": "Md Ruhul Amin",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "socket.io": "^3.1.1"
+  }
+}
